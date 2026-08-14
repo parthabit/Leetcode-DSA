@@ -3,7 +3,7 @@ class Solution {
 
         if (numRows == 1 || numRows >= s.length()) {
             return s;
-        }
+        } 
 
         String[] rows = new String[numRows];
 
