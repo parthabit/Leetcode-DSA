@@ -15,7 +15,7 @@ class Solution {
                         answer = part;
                     }
                 }
-            }
+            } 
         }
 
         return answer;
