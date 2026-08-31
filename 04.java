@@ -29,7 +29,6 @@ class Solution {
             j++;
             k++;
         }
-
         int n = arr.length;
 
         if (n % 2 == 1) {
