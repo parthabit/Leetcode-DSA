@@ -17,7 +17,6 @@ class Solution {
             }
             k++;
         }
-
         while (i < nums1.length) {
             arr[k] = nums1[i];
             i++;
