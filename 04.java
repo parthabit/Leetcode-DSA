@@ -16,7 +16,6 @@ class Solution {
                 arr[k] = nums2[j];
                 j++;
             }
-
             k++;
         }
 
