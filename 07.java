@@ -5,7 +5,7 @@ class Solution {
         while (x != 0) {
             int pop = x % 10;
             x /= 10;
-             
+              
             // Check for overflow before multiplying by 10
             // Integer.MAX_VALUE is 2147483647
             if (reversed > Integer.MAX_VALUE / 10 || (reversed == Integer.MAX_VALUE / 10 && pop > 7)) {
