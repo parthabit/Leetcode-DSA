@@ -10,7 +10,7 @@ class Solution {
                 String part = s.substring(i, j);
 
                 if (isPalindrome(part)) {
-
+ 
                     if (part.length() > answer.length()) {
                         answer = part;
                     }
