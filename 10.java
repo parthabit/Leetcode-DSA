@@ -7,7 +7,7 @@ class Solution {
         boolean[][] dp = new boolean[m + 1][n + 1];
         
         // Base case: empty string matches empty pattern
-        dp[0][0] = true;
+        dp[0][0] = true; 
         
         // Handle patterns like a*, a*b*, a*b*c* that can match an empty string
         for (int j = 2; j <= n; j++) {
