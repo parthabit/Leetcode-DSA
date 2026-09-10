@@ -11,7 +11,7 @@ class Solution {
 
                 if (set.contains(s.charAt(j))) {
                     break;
-                }
+                } 
                 set.add(s.charAt(j));
 
                 maxLength = Math.max(maxLength, j - i + 1);
